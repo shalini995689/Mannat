@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+ integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+ th
+    {
+        align-items: center;
+        text-align: center;
+     }
+	 .head
+{
+	height: 300px;
+	width: 100%;
+	background: url('pics/gr1.jpg');
+	background-size: cover;
+	text-align: center;
+	border-radius: 15px;
+	border-bottom: 5px solid #03e9f4;
+	border-top: 5px solid #03e9f4;
+	background-repeat: no-repeat;
+}
+.head_1
+{
+	/* position: absolute; */
+	margin-top: 0px;
+	padding-top: 55px;
+	width: 100%;
+	height: 290px;
+	text-align: center;
+	font-size: 100px;
+	align-items: center;
+	color: #03e9f4;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.7);
+}
+.input_box1
+    {
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #fff;
+        width: 400px;
+        padding: 20px;
+        color:#fff; 
+    }
+table
+    {
+        background:rgba(#141e30,0.5);
+		align-items: center;
+		text-align: center;
+		margin-left: 35%;
+    }
+.label1
+    {
+        color: #fff;
+    }
+.button11
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+    font-size: 20px;
+    
+}
+.button11:hover
+{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 25px #03e9f4;
+
+}
+
+    </style>
+</head>
+
+<body bgcolor=" #243b55">
+	<header>
+		<div class="w3-row">
+		
+			<div class="w3-col l7 m4 s4 logo w3-white"><img src="pics/logo (2).png" alt="" width="550px" height="70px"></div>
+		<div>
+				<div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="Index.html"><b>Home</b></a></div>
+				<div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="About us.html"><b>About Us</b></a></div>
+				<div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="Doctor's.html"><b>Doctor's</b></a></div>
+				<div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="login Form.html"><b>Login</b></a></div>
+				<div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="Facility.html"><b>Facility</b></a></div>
+		</div>
+		</div>
+	</header>
+
+	<div class="head">
+		<h1 class="head_1">Login Form</h1>
+	</div>
+	<br>
+	<table class="w3-center" width="30%" height="0px"  border="0px" bgcolor="#141e30" cellpadding="0px" cellspacing="20px" style="border-radius: 10px; " action="abc.php">
+	<form action="User form.html" method="post" >
+	<tr>
+		<th><font color="#03e9f4" size="+3">Login</font></th>
+	</tr>
+	<tr>
+		<th>
+			<label for="Name" class="label1"><b>Ragistration Number:</b><font color="red">*</font></label><br>
+			<input type="text" class="input_box1" name="Name" id="Name" placeholder="Enter Your Ragistration Number" required>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<label for="Contect" class="label1">Contect Number:<font color="red">*</font></label><br>
+			<input type="text" class="input_box1" name="Contect" id="Contect" placeholder="type your name" required>
+		</th>
+	</tr>
+		<tr>
+		<th>
+			<label for="Password" class="label1">Password:<font color="red">*</font></label><br>
+			<input type="Password"class="input_box1"  name="Password" id="Password" placeholder="type your name" required>
+		</th>
+	</tr>
+	
+	<tr>
+		<th>
+		 	<Button class="button11">Submit</Button>
+            
+		</th>
+	</tr>
+</table>
+<br><br>
+<!-- footer -->
+<footer>
+    <div class="footer_col  w3-center">
+        <div class="w3-row w3-padding-16 ">
+            <div class="w3-col l3 m6 s12 w3-border-left w3-border-black w3-text-white">
+                <h3 class="w3-text-cyan"><b>GET TOUCH</b></h3>
+                 <!-- <p >Contact Us</p> -->
+                <p ><i class="fa-solid fa-circle-h"></i> Mannat Hospital - Prayagraj</p>
+                <p >Head office-Sehunda bara Prayagraj</p>
+                <p ><i class="fa-solid fa-phone"></i> +91-6306526607,9454700744</p>
+                <p><i class="fa-solid fa-envelope"></i> director@mannathospital.com</p>
+                <p><i class="fa-solid fa-globe"></i> www.mannathospital.org</p>
+                <div>    
+                    <p class="icon" ><i class="fa-brands fa-instagram"></i></p>
+                    <p class="icon"><i class="fa-brands fa-square-facebook"></i></p>
+                    <p class="icon"><i class="fa-brands fa-square-twitter"></i></p>
+                    <p class="icon"><i class="fa-brands fa-linkedin"></i></p>
+                    <p class="icon"><i class="fa-brands fa-square-youtube"></i></p>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 s12 w3-border-left w3-border-black">
+                <h3 class="w3-text-cyan"><b>QUICK LINKS</b></h3>
+                <ul class="ul ">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Doctor's.html">Doctor's</a></li>
+                <li><a href="login Form.html">Login</a></li>
+                <li><a href="Facility.html">Facility</a></li>
+                </ul>
+            </div>
+            <div class="w3-col l3 m6 s12 w3-border-left w3-border-black">
+                <h3 class="w3-text-cyan"><b>POPULAR LINKS</b></h3>
+                <ul class="ul ">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Doctor's.html">Doctor's</a></li>
+                <li><a href="login Form.html">Login</a></li>
+                <li><a href="Facility.html">Facility</a></li>
+                </ul>
+            </div>
+            <div class="w3-col l3 m6 s12 w3-border-left w3-border-black w3-center">
+                <h3 class="w3-text-cyan"><b>Quick Enquiry</b></h3>
+                <form>
+                    <div class="input-box ">
+                        <input type="text" id="username" required>
+                        <label for="username">Enter Your Query : </label>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="username" required>
+                        <label for="username">Enter Your Number: </label>
+                    </div>                
+                    <div class="input-box">
+                        <input type="text" id="username" required>
+                        <label for="username">Enter Your Name: </label>
+                    </div>
+                    <button class="btu">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </footer>
+ 
+
+</form>
+</body>
+</html>

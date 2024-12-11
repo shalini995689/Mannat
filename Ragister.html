@@ -1,0 +1,254 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragister Form</title>
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="doctos list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+ integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+   
+    /* display: flex; */
+    
+    align-items: center;
+    background: linear-gradient(#141e30, #243b55);
+  }
+  main {
+    /* position: absolute;
+    left: 33%; */
+    margin-left: 33%;
+    padding: 25px;
+    width: 600px;
+    max-width:50%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+   padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #03e9f4;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  form {
+    width: 100%;
+  }
+  .input-box {
+   
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+    .input-box input ,select {
+      width: 100%;
+      padding: 5px 5px;
+      font-size: inherit;
+      color: #fff;
+      outline: none;
+      border: none;
+      background: transparent;
+      border-bottom: 1px solid #fff;
+    }
+   
+  .input-box label {
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    pointer-events: none;
+    transition: 0.5s;
+  } 
+  option{
+    color: #03e9f4;
+    background-color: #243b55;
+  }
+  
+  .input-box input:focus + label,
+  .input-box input:valid + label {
+    top: -20px;
+    color: #03e9f4;
+    font-size: 12px;
+    background-color: #243b55;
+    padding: 2px 5px;
+  }
+  
+  .submit-button {
+    position: relative;
+    display: block;
+    margin-left: 40%;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 20px;
+     font-weight: bold;
+    border: none;
+    background-color: rgb(45, 45, 45);
+  }
+  
+  .submit-button:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 25px #03e9f4;
+  }
+  
+    </style>
+</head>
+<body>
+  <!-- header -->
+<header>
+  <div class="w3-row">
+  
+      <div class="w3-col l7 m4 s4 logo w3-white"><img src="pics/logo (2).png" alt="" width="550px" height="70px"></div>
+  
+  <div>
+          <div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="Index.html"><b>Home</b></a></div>
+          <div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="About us.html"><b>About Us</b></a></div>
+          <div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="Doctor's.html"><b>Doctor's</b></a></div>
+          <div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="login Form.html"><b>Login</b></a></div>
+          <div class="w3-col l1 m12 s12 header w3-hover-light-blue w3-white"><a href="Facility.html"><b>Facility</b></a></div>
+  </div>
+  </div>
+</header>
+<div class="head">
+    
+	<!-- <img src="pics/doctors hea.png" width="100%" > -->
+	<h1 class="head_1">Appointment Form</h1></div>
+  <br>
+<main>
+    <h3>Patient Registration Form</h3>
+      <form action="D:\htnl\HTML Coding/User form.html" method="post">
+        <div class="input-box">
+            <input type="text" id="username" required>
+            <label for="username">Username : </label>
+        </div>
+        <div class="input-box">
+            <input type="contact" id="contact" required>
+            <label for="contact">Contact Number : </label>
+        </div>
+        <div class="input-box">
+            <input type="email" id="email" required>
+            <label for="email">Email ID : </label>
+        </div>
+        <div class="input-box">
+            <input type="text" id="text" required>
+            <label for="text">Address : </label>
+        </div>
+        <div class="input-box">
+            <input type="text" id="ci" required>
+            <label for="ci">City : </label>
+        </div>
+        <div class="input-box">
+            <select id="state" name="state">
+                <option value="">Select State</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="MH">Maharashtra</option>
+            </select>
+                <label for="state"></label>
+        </div>
+        <div class="input-box">
+            <input type="date" id="dob" required>
+            
+        </div>
+        <div class="input-box">
+            <select id="gender" name="gender">
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+                <label for="gender"></label>
+        </div>
+        <div class="input-box">
+          <select id="bloodgroup" name="bloodgroup">
+            <option value="">Select Blood Group</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+          </select>
+                <label for="bloodgroup"></label>
+        </div>
+
+            <button class="submit-button">Submit</button>
+          </form>
+        </main>
+     <br>
+<!-- footer -->
+<footer>
+  <div class="footer_col  w3-center">
+      <div class="w3-row w3-padding-16 ">
+          <div class="w3-col l3 m6 s12 w3-border-left w3-border-black w3-text-white">
+              <h3 class="w3-text-cyan"><b>GET TOUCH</b></h3>
+               <!-- <p >Contact Us</p> -->
+              <p ><i class="fa-solid fa-circle-h"></i> Mannat Hospital - Prayagraj</p>
+              <p >Head office-Sehunda bara Prayagraj</p>
+              <p ><i class="fa-solid fa-phone"></i> +91-6306526607,9454700744</p>
+              <p><i class="fa-solid fa-envelope"></i> director@mannathospital.com</p>
+              <p><i class="fa-solid fa-globe"></i> www.mannathospital.org</p>
+              <div>    
+                  <p class="icon" ><i class="fa-brands fa-instagram"></i></p>
+                  <p class="icon"><i class="fa-brands fa-square-facebook"></i></p>
+                  <p class="icon"><i class="fa-brands fa-square-twitter"></i></p>
+                  <p class="icon"><i class="fa-brands fa-linkedin"></i></p>
+                  <p class="icon"><i class="fa-brands fa-square-youtube"></i></p>
+              </div>
+          </div>
+          <div class="w3-col l3 m6 s12 w3-border-left w3-border-black">
+              <h3 class="w3-text-cyan"><b>QUICK LINKS</b></h3>
+              <ul class="ul ">
+              <li><a href="Index.html">Home</a></li>
+              <li><a href="About us.html">About Us</a></li>
+              <li><a href="Doctor's.html">Doctor's</a></li>
+              <li><a href="login Form.html">Login</a></li>
+              <li><a href="Facility.html">Facility</a></li>
+              </ul>
+          </div>
+          <div class="w3-col l3 m6 s12 w3-border-left w3-border-black">
+              <h3 class="w3-text-cyan"><b>POPULAR LINKS</b></h3>
+              <ul class="ul ">
+              <li><a href="Index.html">Home</a></li>
+              <li><a href="About us.html">About Us</a></li>
+              <li><a href="Doctor's.html">Doctor's</a></li>
+              <li><a href="login Form.html">Login</a></li>
+              <li><a href="Facility.html">Facility</a></li>
+              </ul>
+          </div>
+          <div class="w3-col l3 m6 s12 w3-border-left w3-border-black w3-center">
+              <h3 class="w3-text-cyan"><b>Quick Enquiry</b></h3>
+              <form>
+                  <div class="input-box ">
+                      <input type="text" id="username" required>
+                      <label for="username">Enter Your Query : </label>
+                  </div>
+                  <div class="input-box">
+                      <input type="text" id="username" required>
+                      <label for="username">Enter Your Number: </label>
+                  </div>                
+                  <div class="input-box">
+                      <input type="text" id="username" required>
+                      <label for="username">Enter Your Name: </label>
+                  </div>
+                  <button class="btu">Submit</button>
+              </form>
+          </div>
+      </div>
+  </div>
+  </footer>      
+</body>
+</html>
